@@ -178,7 +178,7 @@ nav li a {
   border-radius: 16px;
   background-color: #142850;
   color: #fff;
-  font-size: 18PX;
+  font-size: 18px;
   font-style: normal;
   font-weight: 900;
 }
@@ -191,7 +191,17 @@ nav li a {
   font-weight: 400;
   line-height: normal;
 }
-.lineStraight{
+.lineStraight {
   padding-top: 15px;
   padding-bottom: 31px;
+}
+/* footer  */
+.footerBody {
+  width: 1152px;
+  height: 182px;
+  text-align: center;
+}
+.iconsSection {
+  margin-top: 134px;
+  margin-bottom: 26px;
 }
