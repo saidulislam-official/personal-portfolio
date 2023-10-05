@@ -1,0 +1,137 @@
+/* Universal Design */
+* {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+
+  font-weight: 500;
+}
+/* header navigation Styles */
+header {
+  height: 595px;
+}
+nav {
+  /* display: flex; */
+  /* margin-left: 60px; */
+  margin-right: 60px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  list-style: none;
+  margin-top: 27px;
+  margin-right: 36px;
+}
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+/* banner part start */
+.banner {
+  display: flex;
+  margin-top: 158px;
+  margin-right: 148px;
+  margin-left: 148px;
+  justify-content: space-evenly;
+}
+.bannerTitle {
+  padding-right: 106px;
+}
+
+.bannerHead {
+  padding-bottom: 40px;
+}
+.bannerHead h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: bolder;
+  line-height: 60px;
+}
+.bannerText {
+  padding-bottom: 38px;
+}
+.bannerText p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+.buttonCv button {
+  border-radius: 2px;
+  background: var(--Primary, #ff6464);
+  color: white;
+  padding: 13px 20px;
+  font-size: 20px;
+}
+
+/* section all post */
+.allPost {
+  height: 396px;
+  background: #edf7fa;
+}
+.fontPart {
+  display: flex;
+  margin-right: 148px;
+  margin-left: 148px;
+  justify-content: space-between;
+}
+.fontPart p {
+  padding-top: 7px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+}
+.fontPart a {
+  /* padding-left: 519px; */
+  padding-top: 27px;
+  text-decoration: none;
+  color: var(--Secondry, #00a8cc);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.textBox {
+  display: flex;
+  margin-left: 148px;
+  margin-right: 148px;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.textPart {
+  border: 10px solid #fff;
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  padding-right: 21px;
+  padding-left: 23px;
+}
+
+.textPart h3 {
+  padding-top: 24px;
+  width: 374px;
+  height: 85px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+}
+.textDate {
+  display: flex;
+  padding-top: 17px;
+  justify-content: space-between;
+  padding-bottom: 11px;
+}
+.textDate p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 18px;
+}
+.textPart p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  padding-bottom: 7px;
+}
